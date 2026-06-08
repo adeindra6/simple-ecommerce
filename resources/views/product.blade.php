@@ -41,9 +41,16 @@
                     </div>
 
                     <div class="card-footer bg-white border-0">
-                        <button class="btn btn-primary w-100">
+                        <a
+                            href="https://wa.me/6289668594838?text={{ urlencode(
+                                'Halo, saya tertarik membeli:' . "\n\n" .
+                                'Produk: ' . $product['name'] . "\n" .
+                                'Harga: Rp ' . number_format($product['price'], 0, ',', '.')
+                            ) }}"
+                            target="_blank"
+                            class="btn btn-primary w-100">
                             Beli Sekarang
-                        </button>
+                        </a>
                     </div>
 
                 </div>
