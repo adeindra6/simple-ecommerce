@@ -10,18 +10,17 @@
         background-repeat: no-repeat;
         min-height: 600px;">
         <div class="container py-5">
-            <h1 class="text-white fw-bold">
-                Belanja Mudah, Hidup Lebih Praktis
-            </h1>
+        <h1 class="text-black fw-bold">
+            Belanja Mudah, Hidup Lebih Praktis
+        </h1>
 
-            <p class="text-white">
-                Temukan berbagai produk berkualitas dengan harga terbaik.
-            </p>
+        <p class="text-black">
+            Temukan berbagai produk berkualitas dengan harga terbaik.
+        </p>
 
-            <a href="{{ route('product') }}" class="btn btn-light">
-                Belanja Sekarang
-            </a>
-        </div>
+        <a href="{{ route('product') }}" class="btn btn-outline-primary">
+            Belanja Sekarang
+        </a>
     </section>
 
     <!-- Featured Products -->
@@ -151,3 +150,18 @@
         </div>
     </section>
 @endsection
+
+@push('scripts')
+<script>
+    window.addEventListener('load', function () {
+        const modalElement = document.getElementById('welcomeModal');
+
+        if (modalElement) {
+            const modal = new bootstrap.Modal(modalElement);
+            modal.show();
+        }
+
+        welcomeModal.show();
+    });
+</script>
+@endpush

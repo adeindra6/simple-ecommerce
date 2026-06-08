@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-        <a class="navbar-brand" href="/">Simple Ecommerce</a>
+    <div class="container d-flex align-items-center">
+        <a class="navbar-brand me-4" href="/">Simple Ecommerce</a>
 
         <button class="navbar-toggler"
                 type="button"
@@ -10,26 +10,26 @@
         </button>
 
         <div id="navbarNav">
-            <ul class="navbar-nav ms-4">
-                <li class="nav-item">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item ms-3">
                     <a class="nav-link text-white" href="{{ route('home') }}">
                         Home
                     </a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item ms-3">
                     <a class="nav-link text-white" href="{{ route('product') }}">
                         Produk
                     </a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item ms-3">
                     <a class="nav-link text-white" href="{{ route('about') }}">
                         Tentang
                     </a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item ms-3">
                     <a class="nav-link text-white" href="{{ route('contact') }}">
                         Kontak
                     </a>
