@@ -10,11 +10,11 @@
         background-repeat: no-repeat;
         min-height: 600px;">
             <div class="container py-5">
-                <h1 class="text-white fw-bold">
+                <h1 class="text-black fw-bold">
                     Lihat Produk kami
                 </h1>
 
-                <p class="text-white lead">
+                <p class="text-black lead">
                     Temukan berbagai produk berkualitas dengan harga terbaik.
                 </p>
             </div>

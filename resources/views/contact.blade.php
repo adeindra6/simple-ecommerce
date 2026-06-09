@@ -13,11 +13,11 @@
             <div class="row align-items-center" style="min-height: 300px;">
                 <div class="col-lg-8">
 
-                    <h1 class="display-4 fw-bold text-white">
+                    <h1 class="display-4 fw-bold text-black">
                         Hubungi Kami
                     </h1>
 
-                    <p class="lead text-white">
+                    <p class="lead text-black">
                         Kami siap membantu Anda dengan pertanyaan, saran,
                         maupun informasi mengenai produk kami.
                     </p>

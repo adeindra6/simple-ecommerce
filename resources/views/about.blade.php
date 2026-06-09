@@ -12,11 +12,11 @@
         <div class="container py-5">
             <div class="row align-items-center" style="min-height: 350px;">
                 <div class="col-lg-8">
-                    <h1 class="display-4 fw-bold text-white">
+                    <h1 class="display-4 fw-bold text-black">
                         Tentang Simple Ecommerce
                     </h1>
 
-                    <p class="lead text-white mt-3">
+                    <p class="lead text-black mt-3">
                         Platform belanja online terpercaya yang menyediakan
                         berbagai produk berkualitas dengan harga terbaik untuk
                         memenuhi kebutuhan Anda.
