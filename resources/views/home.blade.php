@@ -4,22 +4,22 @@
 
 @section('content')
     <section
-        style="background-image: url('{{ asset('images/homepage-background.png') }}');
+        style="background-image: url('{{ asset('images/homepage-background.jpeg') }}');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         min-height: 600px;">
         <div class="container py-5">
-        <h1 class="text-black fw-bold">
-            Belanja Mudah, Hidup Lebih Praktis
+        <h1 class="text-white fw-bold">
+            Pawon Pawamarta Catering
         </h1>
 
-        <p class="text-black">
-            Temukan berbagai produk berkualitas dengan harga terbaik.
+        <p class="text-white">
+            Catering enak dengan harga terbaik.
         </p>
 
-        <a href="{{ route('product') }}" class="btn btn-outline-primary">
-            Belanja Sekarang
+        <a href="{{ route('product') }}" class="btn btn-secondary">
+            Pesan Sekarang
         </a>
     </section>
 
@@ -28,7 +28,7 @@
         <div class="container">
 
             <h2 class="text-center fw-bold mb-5">
-                Produk Unggulan
+                Menu Unggulan
             </h2>
 
             <div class="row g-4">
@@ -36,16 +36,13 @@
                 <div class="col-md-4">
                     <div class="card shadow-sm h-100">
                         <img
-                            src="{{ asset('images/sepatu.png') }}"
+                            src="{{ asset('images/paket-nasi-ayam.jpeg') }}"
                             class="card-img-top"
-                            alt="Sepatu Casual"
+                            alt="Paket Nasi Ayam"
                         >
 
                         <div class="card-body text-center">
-                            <h5>Sepatu Casual</h5>
-                            <p class="text-primary fw-bold">
-                                Rp 299.000
-                            </p>
+                            <h5>Paket Nasi Ayam</h5>
                         </div>
                     </div>
                 </div>
@@ -53,16 +50,13 @@
                 <div class="col-md-4">
                     <div class="card shadow-sm h-100">
                         <img
-                            src="{{ asset('images/headphone.png') }}"
+                            src="{{ asset('images/paket-nasi-uduk.jpeg') }}"
                             class="card-img-top"
-                            alt="Wireless Headphone"
+                            alt="Paket Nasi Uduk"
                         >
 
                         <div class="card-body text-center">
-                            <h5>Wireless Headphone</h5>
-                            <p class="text-primary fw-bold">
-                                Rp 499.000
-                            </p>
+                            <h5>Paket Nasi Uduk</h5>
                         </div>
                     </div>
                 </div>
@@ -70,16 +64,111 @@
                 <div class="col-md-4">
                     <div class="card shadow-sm h-100">
                         <img
-                            src="{{ asset('images/bag.png') }}"
+                            src="{{ asset('images/paket-nasi-kuning.jpeg') }}"
                             class="card-img-top"
-                            alt="Premium Bag"
+                            alt="Paket Nasi Kuning"
                         >
 
                         <div class="card-body text-center">
-                            <h5>Premium Bag</h5>
-                            <p class="text-primary fw-bold">
-                                Rp 399.000
-                            </p>
+                            <h5>Paket Nasi Kuning</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img
+                            src="{{ asset('images/paket-nasi-telur.jpeg') }}"
+                            class="card-img-top"
+                            alt="Paket Nasi Telur"
+                        >
+
+                        <div class="card-body text-center">
+                            <h5>Paket Nasi Telur</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img
+                            src="{{ asset('images/snackbox-komplit.jpeg') }}"
+                            class="card-img-top"
+                            alt="Snackbox Komplit"
+                        >
+
+                        <div class="card-body text-center">
+                            <h5>Snack Box Komplit</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img
+                            src="{{ asset('images/snackbox-nusantara.jpeg') }}"
+                            class="card-img-top"
+                            alt="Snackbox Nusantara"
+                        >
+
+                        <div class="card-body text-center">
+                            <h5>Snack Box Nusantara</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img
+                            src="{{ asset('images/snackbox-paramata-special.jpeg') }}"
+                            class="card-img-top"
+                            alt="Snackbox Paramata Special"
+                        >
+
+                        <div class="card-body text-center">
+                            <h5>Snack Box Paramata Special</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img
+                            src="{{ asset('images/snackbox-premium.jpeg') }}"
+                            class="card-img-top"
+                            alt="Snackbox Premium"
+                        >
+
+                        <div class="card-body text-center">
+                            <h5>Snack Box Premium</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img
+                            src="{{ asset('images/snackbox-reguler.jpeg') }}"
+                            class="card-img-top"
+                            alt="Snackbox Reguler"
+                        >
+
+                        <div class="card-body text-center">
+                            <h5>Snack Box Reguler</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img
+                            src="{{ asset('images/snackbox-tradisional.jpeg') }}"
+                            class="card-img-top"
+                            alt="Snackbox Tradisional"
+                        >
+
+                        <div class="card-body text-center">
+                            <h5>Snack Box Tradisional</h5>
                         </div>
                     </div>
                 </div>
@@ -101,9 +190,9 @@
 
                 <div class="col-md-4">
                     <h1>⭐</h1>
-                    <h5>Produk Berkualitas</h5>
+                    <h5>Masakan Enak</h5>
                     <p>
-                        Kami hanya menjual produk dengan kualitas terbaik.
+                        Kami hanya menjual masakan dengan kualitas terbaik.
                     </p>
                 </div>
 
@@ -117,9 +206,9 @@
 
                 <div class="col-md-4">
                     <h1>🛡️</h1>
-                    <h5>Belanja Aman</h5>
+                    <h5>Pemesanan Aman</h5>
                     <p>
-                        Transaksi aman dan terpercaya.
+                        Pemesanan aman dan terpercaya.
                     </p>
                 </div>
 
@@ -129,22 +218,23 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-5 bg-primary text-white">
+    <section class="py-5 text-dark"
+        style="background-color: #D2B48C;">
         <div class="container text-center">
 
             <h2 class="fw-bold">
-                Siap Berbelanja?
+                Siap Melakukan Pemesanan
             </h2>
 
             <p class="lead">
-                Temukan produk favorit Anda sekarang juga.
+                Temukan menu favorit Anda sekarang juga.
             </p>
 
             <a
                 href="{{ route('product') }}"
                 class="btn btn-light btn-lg"
             >
-                Lihat Semua Produk
+                Lihat Semua Menu
             </a>
 
         </div>
