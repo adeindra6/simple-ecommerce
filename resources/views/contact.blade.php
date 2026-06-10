@@ -4,7 +4,7 @@
 
 @section('content')
     <section
-        style="background-image: url('{{ asset('images/homepage-background.png') }}');
+        style="background-image: url('{{ asset('images/homepage-background.jpeg') }}');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -13,13 +13,13 @@
             <div class="row align-items-center" style="min-height: 300px;">
                 <div class="col-lg-8">
 
-                    <h1 class="display-4 fw-bold text-black">
+                    <h1 class="display-4 fw-bold text-white">
                         Hubungi Kami
                     </h1>
 
-                    <p class="lead text-black">
+                    <p class="lead text-white">
                         Kami siap membantu Anda dengan pertanyaan, saran,
-                        maupun informasi mengenai produk kami.
+                        maupun informasi mengenai menu kami.
                     </p>
 
                 </div>
@@ -44,7 +44,7 @@
                         <div class="card-body">
                             <h5>📧 Email</h5>
                             <p class="mb-0">
-                                support@simpleecommerce.com
+                                support@pawonpawamarta.com
                             </p>
                         </div>
                     </div>

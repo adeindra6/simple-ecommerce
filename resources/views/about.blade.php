@@ -4,7 +4,7 @@
 
 @section('content')
     <section
-        style="background-image: url('{{ asset('images/homepage-background.png') }}');
+        style="background-image: url('{{ asset('images/homepage-background.jpeg') }}');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -12,13 +12,13 @@
         <div class="container py-5">
             <div class="row align-items-center" style="min-height: 350px;">
                 <div class="col-lg-8">
-                    <h1 class="display-4 fw-bold text-black">
-                        Tentang Simple Ecommerce
+                    <h1 class="display-4 fw-bold text-white">
+                        Tentang Pawon Pawamarta Catering
                     </h1>
 
-                    <p class="lead text-black mt-3">
-                        Platform belanja online terpercaya yang menyediakan
-                        berbagai produk berkualitas dengan harga terbaik untuk
+                    <p class="lead text-white mt-3">
+                        Platform catering online terpercaya yang menyediakan
+                        berbagai menu berkualitas dengan harga terbaik untuk
                         memenuhi kebutuhan Anda.
                     </p>
                 </div>
@@ -38,19 +38,17 @@
                     </h2>
 
                     <p class="text-muted">
-                        Simple Ecommerce adalah platform belanja online yang
-                        berkomitmen memberikan pengalaman berbelanja yang mudah,
+                        Pawon Pawamarta Catering adalah platform catering online yang
+                        berkomitmen memberikan pengalaman catering yang mudah,
                         aman, dan nyaman bagi seluruh pelanggan.
                     </p>
 
                     <p class="text-muted">
-                        Kami menyediakan berbagai kategori produk mulai dari
-                        fashion, elektronik, aksesoris, hingga kebutuhan
-                        sehari-hari dengan kualitas terbaik dan harga
-                        kompetitif.
+                        Kami menyediakan berbagai menu mulai dari paket nasi dan snack.
                     </p>
                 </div>
 
+                <!--
                 <div class="col-lg-6">
                     <img
                         src="{{ asset('images/about-us.png') }}"
@@ -59,6 +57,7 @@
                         alt="About Us"
                     >
                 </div>
+                -->
 
             </div>
 
@@ -75,13 +74,13 @@
                     <div class="card shadow-sm border-0 h-100">
                         <div class="card-body">
 
-                            <h3 class="text-primary fw-bold">
+                            <h3 class="fw-bold">
                                 Visi
                             </h3>
 
                             <p>
-                                Menjadi platform ecommerce terpercaya yang
-                                memberikan kemudahan berbelanja bagi seluruh
+                                Menjadi platform catering terpercaya yang
+                                memberikan kemudahan catering bagi seluruh
                                 masyarakat Indonesia.
                             </p>
 
@@ -93,12 +92,12 @@
                     <div class="card shadow-sm border-0 h-100">
                         <div class="card-body">
 
-                            <h3 class="text-primary fw-bold">
+                            <h3 class="fw-bold">
                                 Misi
                             </h3>
 
-                            <ul>
-                                <li>Menyediakan produk berkualitas.</li>
+                            <ul style="list-style-type: disc;">
+                                <li>Menyediakan menu berkualitas.</li>
                                 <li>Memberikan pelayanan terbaik.</li>
                                 <li>Mengutamakan kepuasan pelanggan.</li>
                                 <li>Membangun kepercayaan jangka panjang.</li>
@@ -128,9 +127,9 @@
                 <div class="col-md-4">
                     <div class="p-4">
                         <h3>⭐</h3>
-                        <h5>Produk Berkualitas</h5>
+                        <h5>Menu Berkualitas</h5>
                         <p class="text-muted">
-                            Semua produk telah melalui proses seleksi kualitas.
+                            Semua menu telah melalui proses seleksi kualitas.
                         </p>
                     </div>
                 </div>
@@ -148,9 +147,9 @@
                 <div class="col-md-4">
                     <div class="p-4">
                         <h3>🛡️</h3>
-                        <h5>Belanja Aman</h5>
+                        <h5>Pemesanan Aman</h5>
                         <p class="text-muted">
-                            Transaksi aman dan data pelanggan terlindungi.
+                            Pemesanan aman dan terpercaya.
                         </p>
                     </div>
                 </div>
