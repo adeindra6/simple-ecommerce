@@ -12,20 +12,45 @@ Route::view('/contact', 'contact')->name('contact');
 Route::get('/product', function () {
     $products = [
         [
-            'name' => 'Sepatu Casual',
-            'price' => 299000,
-            'image' => 'sepatu.png'
+            'name' => 'Paket Nasi Ayam',
+            'image' => 'paket-nasi-ayam.jpeg'
         ],
         [
-            'name' => 'Wireless Headphone',
-            'price' => 499000,
-            'image' => 'headphone.png'
+            'name' => 'Paket Nasi Uduk',
+            'image' => 'paket-nasi-uduk.jpeg'
         ],
         [
-            'name' => 'Tas Premium',
-            'price' => 399000,
-            'image' => 'bag.png'
-        ]
+            'name' => 'Paket Nasi Kuning',
+            'image' => 'paket-nasi-kuning.jpeg'
+        ],
+        [
+            'name' => 'Paket Nasi Telur',
+            'image' => 'paket-nasi-telur.jpeg'
+        ],
+        [
+            'name' => 'Snack Box Komplit',
+            'image' => 'snackbox-komplit.jpeg'
+        ],
+        [
+            'name' => 'Snack Box Nusantara',
+            'image' => 'snackbox-nusantara.jpeg'
+        ],
+        [
+            'name' => 'Snack Box Paramata Special',
+            'image' => 'snackbox-paramata-special.jpeg'
+        ],
+        [
+            'name' => 'Snack Box Premium',
+            'image' => 'snackbox-premium.jpeg'
+        ],
+        [
+            'name' => 'Snack Box Reguler',
+            'image' => 'snackbox-reguler.jpeg'
+        ],
+        [
+            'name' => 'Snack Box Tradisional',
+            'image' => 'snackbox-tradisional.jpeg'
+        ],
     ];
 
     return view('product', compact('products'));

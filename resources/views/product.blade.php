@@ -4,17 +4,17 @@
 
 @section('content')
     <section
-        style="background-image: url('{{ asset('images/homepage-background.png') }}');
+        style="background-image: url('{{ asset('images/homepage-background.jpeg') }}');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         min-height: 600px;">
             <div class="container py-5">
-                <h1 class="text-black fw-bold">
+                <h1 class="text-white fw-bold">
                     Lihat Produk kami
                 </h1>
 
-                <p class="text-black lead">
+                <p class="text-white lead">
                     Temukan berbagai produk berkualitas dengan harga terbaik.
                 </p>
             </div>
@@ -34,22 +34,17 @@
 
                     <div class="card-body">
                         <h5>{{ $product['name'] }}</h5>
-
-                        <h4 class="text-primary">
-                            Rp {{ number_format($product['price'], 0, ',', '.') }}
-                        </h4>
                     </div>
 
                     <div class="card-footer bg-white border-0">
                         <a
                             href="https://wa.me/6289668594838?text={{ urlencode(
-                                'Halo, saya tertarik membeli:' . "\n\n" .
-                                'Produk: ' . $product['name'] . "\n" .
-                                'Harga: Rp ' . number_format($product['price'], 0, ',', '.')
+                                'Halo, saya tertarik memesan:' . "\n\n" .
+                                'Menu: ' . $product['name']
                             ) }}"
                             target="_blank"
                             class="btn btn-primary w-100">
-                            Beli Sekarang
+                            Pesan Sekarang
                         </a>
                     </div>
 
