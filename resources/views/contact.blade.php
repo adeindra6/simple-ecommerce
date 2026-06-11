@@ -44,7 +44,7 @@
                         <div class="card-body">
                             <h5>📧 Email</h5>
                             <p class="mb-0">
-                                support@pawonpawamarta.com
+                                pawonparamartacatering@gmail.com
                             </p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                         <div class="card-body">
                             <h5>📞 Telepon</h5>
                             <p class="mb-0">
-                                +62 812-3456-7890
+                                +62 821-1642-132
                             </p>
                         </div>
                     </div>
@@ -62,8 +62,8 @@
                         <div class="card-body">
                             <h5>📍 Alamat</h5>
                             <p class="mb-0">
-                                Jl. Malioboro No. 123,
-                                Yogyakarta, Indonesia
+                                Jalan Ring Road Barat No.63, Mlangi, Nogotirto, Kapanewon Gamping, Kabupaten
+                                Sleman, Daerah Istimewa Yogyakarta.
                             </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                                 Senin - Jumat: 08:00 - 17:00
                             </p>
                             <p class="mb-0">
-                                Sabtu: 08:00 - 12:00
+                                Sabtu: 08:00 - 15:00
                             </p>
                         </div>
                     </div>
@@ -96,50 +96,76 @@
 
                                 <div class="mb-3">
                                     <label class="form-label">
-                                        Nama Lengkap
+                                        No. WhatsApp
                                     </label>
 
                                     <input
                                         type="text"
                                         class="form-control"
-                                        placeholder="Masukkan nama Anda"
+                                        placeholder="Masukkan No. WhatsApp Anda"
                                     >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label">
-                                        Email
-                                    </label>
-
-                                    <input
-                                        type="email"
-                                        class="form-control"
-                                        placeholder="Masukkan email Anda"
-                                    >
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">
-                                        Subjek
+                                        Pilihan Paket
                                     </label>
 
                                     <input
                                         type="text"
                                         class="form-control"
-                                        placeholder="Masukkan subjek"
+                                        placeholder="Masukkan paket yang ingin dipesan"
                                     >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label">
-                                        Pesan
+                                        Jumlah Pesanan
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Tulis jumlah pesanan anda"
+                                    >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">
+                                        Tanggal Acara
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Tulis tanggal acara anda"
+                                    >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">
+                                        Alamat Pengiriman
                                     </label>
 
                                     <textarea
                                         class="form-control"
                                         rows="5"
-                                        placeholder="Tulis pesan Anda"
-                                    ></textarea>
+                                        placeholder="Tulis jumlah pesanan anda"
+                                    >
+                                    </textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">
+                                        Catatan Tambahan
+                                    </label>
+
+                                    <textarea
+                                        class="form-control"
+                                        rows="5"
+                                        placeholder="Tulis catatan tambahan"
+                                    >
+                                    </textarea>
                                 </div>
 
                                 <button

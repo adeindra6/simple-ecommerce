@@ -11,7 +11,7 @@
         min-height: 600px;">
         <div class="container py-5">
         <h1 class="text-white fw-bold">
-            Pawon Pawamarta Catering
+            Pawon Paramarta Catering
         </h1>
 
         <p class="text-white">

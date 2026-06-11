@@ -13,7 +13,7 @@
             <div class="row align-items-center" style="min-height: 350px;">
                 <div class="col-lg-8">
                     <h1 class="display-4 fw-bold text-white">
-                        Tentang Pawon Pawamarta Catering
+                        Tentang Pawon Paramarta Catering
                     </h1>
 
                     <p class="lead text-white mt-3">
@@ -38,7 +38,7 @@
                     </h2>
 
                     <p class="text-muted">
-                        Pawon Pawamarta Catering adalah platform catering online yang
+                        Pawon Paramarta Catering adalah platform catering online yang
                         berkomitmen memberikan pengalaman catering yang mudah,
                         aman, dan nyaman bagi seluruh pelanggan.
                     </p>

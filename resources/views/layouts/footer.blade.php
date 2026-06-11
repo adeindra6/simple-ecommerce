@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-md-4">
-                <h5>Pawon Pawamarta Catering</h5>
+                <h5>Pawon Paramarta Catering</h5>
                 <p>
                     Catering enak dengan harga terbaik.
                 </p>
@@ -21,8 +21,8 @@
 
             <div class="col-md-4">
                 <h5>Kontak</h5>
-                <p>Email: info@pawonpawamarta.com</p>
-                <p>Phone: +62 812-3456-7890</p>
+                <p>Email: pawonparamartacatering@gmail.com</p>
+                <p>Phone: +62 821-1642-132</p>
             </div>
 
         </div>
@@ -30,7 +30,7 @@
         <hr>
 
         <div class="text-center">
-            © {{ date('Y') }} Pawon Pawamarta Catering. All Rights Reserved.
+            © {{ date('Y') }} Pawon Paramarta Catering. All Rights Reserved.
         </div>
     </div>
 </footer>

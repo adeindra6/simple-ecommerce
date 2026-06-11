@@ -38,7 +38,7 @@
 
                     <div class="card-footer bg-white border-0">
                         <a
-                            href="https://wa.me/6289668594838?text={{ urlencode(
+                            href="https://wa.me/628211642132?text={{ urlencode(
                                 'Halo, saya tertarik memesan:' . "\n\n" .
                                 'Menu: ' . $product['name']
                             ) }}"
