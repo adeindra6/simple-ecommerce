@@ -34,6 +34,10 @@
 
                     <div class="card-body">
                         <h5>{{ $product['name'] }}</h5>
+
+                        <h4 class="text-black">
+                            Rp {{ number_format($product['price'], 0, ',', '.') }}/box
+                        </h4>
                     </div>
 
                     <div class="card-footer bg-white border-0">

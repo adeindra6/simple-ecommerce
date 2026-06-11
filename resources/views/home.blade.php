@@ -43,6 +43,10 @@
 
                         <div class="card-body text-center">
                             <h5>Paket Nasi Ayam</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(20000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -57,6 +61,10 @@
 
                         <div class="card-body text-center">
                             <h5>Paket Nasi Uduk</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(20000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -71,6 +79,10 @@
 
                         <div class="card-body text-center">
                             <h5>Paket Nasi Kuning</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(17000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -85,6 +97,10 @@
 
                         <div class="card-body text-center">
                             <h5>Paket Nasi Telur</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(15000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -99,6 +115,10 @@
 
                         <div class="card-body text-center">
                             <h5>Snack Box Komplit</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(18000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -113,6 +133,10 @@
 
                         <div class="card-body text-center">
                             <h5>Snack Box Nusantara</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(12000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -127,6 +151,10 @@
 
                         <div class="card-body text-center">
                             <h5>Snack Box Paramata Special</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(20000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -141,6 +169,10 @@
 
                         <div class="card-body text-center">
                             <h5>Snack Box Premium</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(12000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -155,6 +187,10 @@
 
                         <div class="card-body text-center">
                             <h5>Snack Box Reguler</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(10000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -169,6 +205,10 @@
 
                         <div class="card-body text-center">
                             <h5>Snack Box Tradisional</h5>
+
+                            <h4 class="text-black">
+                                Rp {{ number_format(12000, 0, ',', '.') }}/box
+                            </h4>
                         </div>
                     </div>
                 </div>
