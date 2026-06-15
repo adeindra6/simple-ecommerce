@@ -15,7 +15,7 @@
         </h1>
 
         <p class="text-white">
-            Catering enak dengan harga terbaik.
+            Sajian Bermakna di Setiap Acara
         </p>
 
         <a href="{{ route('product') }}" class="btn btn-secondary">

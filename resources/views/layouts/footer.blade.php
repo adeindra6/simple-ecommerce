@@ -23,6 +23,23 @@
                 <h5>Kontak</h5>
                 <p>Email: pawonparamartacatering@gmail.com</p>
                 <p>Phone: +62 821-1642-132</p>
+                <div class="d-flex gap-3">
+                    <a
+                        href="https://www.instagram.com/pawonparamarta.catering?igsh=MWc1c3ZwZDBjajV6NQ%3D%3D&utm_source=qr"
+                        target="_blank"
+                        class="text-danger fs-3"
+                    >
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a
+                        href="https://www.tiktok.com/@pawonparamarta.c?_r=1&_t=ZS-973iwUBvYer"
+                        target="_blank"
+                        class="text-white fs-3"
+                    >
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
             </div>
 
         </div>
