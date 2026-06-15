@@ -92,7 +92,7 @@
                                 Kirim Pesan
                             </h2>
 
-                            <form>
+                            <form id="orderForm">
 
                                 <div class="mb-3">
                                     <label class="form-label">
@@ -101,6 +101,7 @@
 
                                     <input
                                         type="text"
+                                        id="nama"
                                         class="form-control"
                                         placeholder="Masukkan Nama Lengkap Anda"
                                     >
@@ -113,6 +114,7 @@
 
                                     <input
                                         type="text"
+                                        id="whatsapp"
                                         class="form-control"
                                         placeholder="Masukkan No. WhatsApp Anda"
                                     >
@@ -125,6 +127,7 @@
 
                                     <input
                                         type="text"
+                                        id="paket"
                                         class="form-control"
                                         placeholder="Masukkan paket yang ingin dipesan"
                                     >
@@ -137,6 +140,7 @@
 
                                     <input
                                         type="text"
+                                        id="jumlah"
                                         class="form-control"
                                         placeholder="Tulis jumlah pesanan anda"
                                     >
@@ -149,6 +153,7 @@
 
                                     <input
                                         type="text"
+                                        id="tanggal"
                                         class="form-control"
                                         placeholder="Tulis tanggal acara anda"
                                     >
@@ -161,10 +166,10 @@
 
                                     <textarea
                                         class="form-control"
+                                        id="alamat"
                                         rows="5"
-                                        placeholder="Tulis jumlah pesanan anda"
-                                    >
-                                    </textarea>
+                                        placeholder="Tulis alamat pengiriman anda"
+                                    ></textarea>
                                 </div>
 
                                 <div class="mb-3">
@@ -174,10 +179,10 @@
 
                                     <textarea
                                         class="form-control"
+                                        id="catatan"
                                         rows="5"
                                         placeholder="Tulis catatan tambahan"
-                                    >
-                                    </textarea>
+                                    ></textarea>
                                 </div>
 
                                 <button
@@ -198,4 +203,39 @@
 
         </div>
     </section>
+
+    <script>
+        document.getElementById('orderForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const nama = document.getElementById('nama').value;
+            const whatsapp = document.getElementById('whatsapp').value;
+            const paket = document.getElementById('paket').value;
+            const jumlah = document.getElementById('jumlah').value;
+            const tanggal = document.getElementById('tanggal').value;
+            const alamat = document.getElementById('alamat').value;
+            const catatan = document.getElementById('catatan').value;
+
+            const pesan = `*PESANAN BARU*
+
+        Nama: ${nama}
+        No. WhatsApp: ${whatsapp}
+        Paket: ${paket}
+        Jumlah Pesanan: ${jumlah}
+        Tanggal Acara: ${tanggal}
+
+        Alamat Pengiriman:
+        ${alamat}
+
+        Catatan Tambahan:
+        ${catatan}`;
+
+            const nomorTujuan = '628211642132';
+
+            window.open(
+                `https://wa.me/${nomorTujuan}?text=${encodeURIComponent(pesan)}`,
+                '_blank'
+            );
+        });
+        </script>
 @endsection
